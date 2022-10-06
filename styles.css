@@ -1,0 +1,159 @@
+body {
+    font-family: circular;
+}
+.signLogoHeader {
+    margin-top: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1680px;
+    margin: 0 auto;
+    margin-left: 135px;
+    flex-wrap: wrap;
+  
+}
+.header-rightPart {
+   
+    margin-top: 30px;
+    margin-right: 127px;
+}
+.header-rightPart > a {
+    margin-left: 32px;
+    font-size: 16.64px;
+    
+}
+.start {
+    background-color: #FF6100;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 18px;
+    line-height: 165.1%;
+}
+.explore {
+    border-right: 5px;
+    border-color: black;
+}
+.automation {  
+    display: flex;
+    justify-content: space-around;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.left-automation {
+    background-image: url("images/Vector.png");
+    background-repeat: no-repeat;
+    margin-left: 135px;
+    max-width: 804px;
+}
+.right-automation {
+    max-width: 745px;
+    margin-top: 87px;
+    background-image: url("images/vector2.png");
+    
+}
+.left-automation > h4 {
+    font-size: 20px;
+    color: #B4E166;
+    margin-top: 180px;
+    margin-left: 8px;
+}
+.left-automation > h2 {
+    font-size: 70px;
+    max-width: 791px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.left-automation > p {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 145.1%;
+    color: #0A1551;
+}
+.free {
+    font-style: italic;
+}
+.automation > p {
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+.completeHeader {
+    color: #0A1551;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 267px;
+}
+.three-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+}
+.three-h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.collect-p {
+    line-height: 28px;
+    max-width: 359px;
+}
+.contract-p {
+    max-width: 356px;
+    line-height: 28px;
+}
+.consent-p {
+    max-width: 329px;
+    line-height: 28px;
+}
+.empty-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+svg {
+    width: 100%;
+}
+.dot {
+    width: 56px;
+    height: 56px;
+    background-color: #94CD2A;
+    border-radius: 50%;
+    position: absolute;
+
+}
+.lease-left > img {
+    width: 569px;
+}
+.lease-right > h3 {
+    font-size: 46px;
+    font-weight: bold;
+}
+.lease-agreement {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lease-right > p {
+    font-size: 20px;
+    line-height: 28px;
+    width: 485px;;
+}
+.lease-right {
+    color: #0A1551;
+}
+.consent {
+    margin-left: 58px;
+}
+.second-image {
+    margin-left: 57px;
+}
+.start-blue {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 18px;
+    line-height: 165.1%;
+}
