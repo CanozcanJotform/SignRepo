@@ -1,5 +1,6 @@
 body {
     font-family: circular;
+    box-sizing: border-box;
 }
 .signLogoHeader {
     margin-top: 20px;
@@ -25,7 +26,7 @@ body {
 }
 .start {
     background-color: #FF6100;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     color: white;
     font-family: 18px;
@@ -90,6 +91,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 47px;
+    background-image: url("images/Union.svg");
+    background-size: cover;
 }
 .three-h3 {
     font-size: 28px;
@@ -115,7 +118,7 @@ body {
 svg {
     width: 100%;
 }
-.dot {
+.dot1 {
     width: 56px;
     height: 56px;
     background-color: #94CD2A;
@@ -134,6 +137,7 @@ svg {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 120px;
 }
 .lease-right > p {
     font-size: 20px;
@@ -150,10 +154,222 @@ svg {
     margin-left: 57px;
 }
 .start-blue {
-    background-color: blue;
+    background-color:#0a1551;
     padding: 10px;
     border-radius: 5px;
     color: white;
     font-family: 18px;
     line-height: 165.1%;
+}
+.empower {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.empower > h3 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 120.1%;
+    margin-bottom: 0px;
+}
+.empower > p {
+    font-size: 20px;
+    line-height: 28px;
+    width: 1164px;
+}
+.empower > a {
+    margin-top: 10px;
+}
+/* .three-h3, .consent-p, .contract-p {
+    background-color: #FCF1E1;
+} */
+.dot2 {
+    width: 56px;
+    height: 56px;
+    background-color: #FF6100;
+    border-radius: 50%;
+    position: absolute;
+}
+.document-embed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+.automate-document > h3 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 120.1%;
+}
+.automate-document > p {
+    font-size: 20px;
+    line-height: 28px;
+    width: 523px;
+}
+.sign-templates > h3 {
+    font-size: 28px;
+    line-height: 134.1%;
+    color: #fff;
+    text-align: center;
+}
+.sign-templates > h2 {
+    font-size: 56px;
+    line-height: 54px;
+    font-weight: bold;
+    text-align: center;
+    color: #B4E166;
+}
+.sign-templates-wrapper {
+    background-color: #0A1551;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.proposal > h3 {
+    font-size: 36px;
+    font-weight: bold;
+
+}
+.discover > a {
+    color: #fff;
+    background-color: #FF6100;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+}
+.images-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.done-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+.done > h3 {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 120.1%;
+}
+.done > p {
+  font-size: 20px;
+  line-height: 28px;
+}
+.analyze-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.two-images {
+  /* background-color: #9C4DD3;
+  border-radius: 50%;
+  padding: 30px; */
+}
+.started-three-images {
+    text-align: center;
+    margin-top: 10px;
+}
+.intent, .rental {
+    margin-left: 36px;
+}
+.discover {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.analyze {
+    width: 523px;
+    
+}
+.analyze > h3 {
+    font-size: 46px;
+    font-weight: bold;
+}
+.analyze > p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.done {
+    width: 524px;
+}
+.gif-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0A1551;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.how-to-use > h5 {
+    color: #7FCA00;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.how-to-use > h4 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.evangelist-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.evangelist {
+    font-size: 30px;
+    font-weight: bold;
+    width: 1056px;
+   line-height: 153.1%;
+   text-align: center;
+}
+.evangelist > span {
+    color: #7FCA00;
+}
+.nasser > h5 {
+    font-size: 24px;
+    color: #6F76A7;
+    line-height: 150%;
+}
+.discover-sign-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #7FCA00;;
+    height: 363px;
+    justify-content: space-evenly;
+    
+}
+.discover-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    font-size: 18px;
+    color: #fff;
+}
+.discover-sign {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.check-out-button, .webinar-button {
+    border-radius: 6px;
+    border: 1px solid #fff;
+    padding: 8px 20px 8px 20px;
+    
+}
+.address-wrapper {
+    display: flex;
+}
+.jotform-tag, .marketplace-tag, .support-tag, .company-tag {
+    display: flex;
+    flex-direction: column;
 }
